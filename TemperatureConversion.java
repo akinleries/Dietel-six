@@ -30,11 +30,6 @@ public class TemperatureConversion {
                                                                                                           //default -> throw new IllegalArgumentException("Pls Enter the correct input");
                 }
                 System.out.println();
-                System.out.println("""
-                Enter 1 to convert to celsius
-                Enter 2 to convert to fahrenheit
-                Enter -1 to stop
-                """);
                 userInput = input.nextInt();
             }while (userInput != -1);
 
